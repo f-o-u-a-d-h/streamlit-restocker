@@ -50,7 +50,7 @@ with st.form("restock_form"):
     emergency = st.number_input("Emergency Visits", min_value=0, max_value=250, value=100)
     inpatient = st.number_input("Inpatient Visits", min_value=0, max_value=250, value=50)
     consumed = st.number_input("Medicine Consumed", min_value=0, max_value=3000, value=2000)
-    in_stock = st.number_input("Stock Remaining", min_value=0, max_value=5000, value=1500)
+    in_stock = st.number_input("Stock Remaining", min_value=0, max_value=5000, value=500)
     submitted = st.form_submit_button("Predict")
 
     if submitted:

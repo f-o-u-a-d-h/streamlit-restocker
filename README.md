@@ -11,6 +11,7 @@ Given the tabular nature of the data and the presence of both numerical and cate
 - Speed and efficiency, especially with large feature sets and high-dimensional data
 
 The model was trained offline and saved as `restocking_model.pkl`. It is loaded during inference and does not require retraining in the deployed application.
+(for more info about data generation and model training, visit https://drive.google.com/drive/folders/1a4aIfcLIUQwniAaW_wawb6kcmlm8cLAZ?usp=drive_link)
 
 The app is deployed using Streamlit Cloud for easy access, interaction, and demonstration.
 

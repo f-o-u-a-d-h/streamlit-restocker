@@ -82,9 +82,7 @@ To deploy this app using Streamlit Cloud:
    - Branch: `main`
    - App file: `restock_app.py`
 5. Click **"Deploy"** and your app will be live.
-```
 Deployed Example: https://app-restocker-b672wwylekojh23gghvurq.streamlit.app/
-```
 
 ---
 

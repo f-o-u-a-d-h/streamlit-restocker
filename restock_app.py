@@ -46,11 +46,11 @@ st.title("💊 Medicine Restocking Predictor")
 
 with st.form("restock_form"):
     date = st.date_input("Date", datetime.date.today())
-    outpatient = st.number_input("Outpatient Visits", min_value=0, max_value=2500, value=10)
-    emergency = st.number_input("Emergency Visits", min_value=0, max_value=250, value=5)
-    inpatient = st.number_input("Inpatient Visits", min_value=0, max_value=250, value=2)
-    consumed = st.number_input("Medicine Consumed", min_value=0, max_value=3000, value=100)
-    in_stock = st.number_input("Stock Remaining", min_value=0, max_value=5000, value=50)
+    outpatient = st.number_input("Outpatient Visits", min_value=0, max_value=2500, value=1000)
+    emergency = st.number_input("Emergency Visits", min_value=0, max_value=250, value=100)
+    inpatient = st.number_input("Inpatient Visits", min_value=0, max_value=250, value=50)
+    consumed = st.number_input("Medicine Consumed", min_value=0, max_value=3000, value=2000)
+    in_stock = st.number_input("Stock Remaining", min_value=0, max_value=5000, value=1500)
     submitted = st.form_submit_button("Predict")
 
     if submitted:
